@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>The Words by a Young Lady</title>
+           <author>Anonymous</author>
+           <respStmt>
+              <resp>Encoded by</resp>
+              <name>Vivian Teresa Tompkins</name>
+           </respStmt>
+        </titleStmt>
+        <publicationStmt>
+           <publisher>Vivian Teresa Tompkins</publisher>
+           <date when-iso="2020-05-06">06 May 2020</date>
+           <availability><p>The works on this site are in the public domain. The encoded text is provided for educational use only.</p></availability>
+        </publicationStmt>
+        <sourceDesc><p>Published in the poetry collection <title>Miscellanea Sacra</title>, compiled and edited by <name type="person" role="compiler">Nahum Tate</name>, published by <name type="person" role="publisher">Henry Playford</name> in <date when="1696">1696</date></p></sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <normalization method="silent">
+           <p>Spelling has been modernized and standardized.</p>
+           <p>Capital letters following initial letters have been changed to lowercase.</p>
+           </normalization>
+        </editorialDecl>
+        <metDecl type="met" pattern="-+|-+|-+|-+|-+/">
+           <metSym value="-">stressed syllable</metSym>
+           <metSym value="+">unstressed syllable</metSym>
+           <metSym value="|">foot boundary</metSym>
+           <metSym value="/">metrical line boundary</metSym>
+        </metDecl>
+     </encodingDesc>
+     <profileDesc>
+        <creation>Written by an anonymous female poet. One possible author of the text is <name type="person" role="poet">Anne Finch (née Kingsmill)</name>, Countess of Wilchilsea (<date>1661-1720</date>). Six other poems in <title>Miscellanea Sacra</title> (<date when="1696">1696</date>) have been attributed to Finch, and <title>“There's no disturbance in the Heavens above”</title> shares the themes of enduring hardship and rejecting worldly pleasure that are found in several of her religious poems.</creation>
+        <creation>Set to music by <name type="person" role="composer">John Jackson</name>.</creation>
+        <creation>Musical setting appears in the devotional song collection <title>Harmonia Sacra</title>, compiled and published by <name type="person">Henry Playford</name> in <date when="1688">1688</date>.</creation>
+        <langUsage><language ident="en">English</language></langUsage>
+     </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head>The Words by a Young Lady.</head>
+         <lg type="poem" n="1" met="-+|-+|-+|-+|-+/" rhyme="aabbccdd">
+            <l rhyme="a">THere's no disturbance in the Heavens above</l>
+            <l rhyme="a">And heavenly Souls do nothing else but Love</l>
+            <l rhyme="b">No Anger, no Remorse, no Discontent</l>
+            <l rhyme="b">Can seize a Soul that's truly Innocent</l>
+            <l rhyme="c">And aims at nought, but that she may combine</l>
+            <l rhyme="c" real="-+|-+|--+|--+">With all she finds, like to her self, Divine</l>
+            <l rhyme="d">And seeing Things in such Confusion hurl'd</l>
+            <l rhyme="d">Does not contend with, but despise the World.</l>
+         </lg>
+      </body>
+  </text>
+</TEI>
